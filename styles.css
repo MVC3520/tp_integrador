@@ -1,0 +1,45 @@
+.cover{
+    background-image: url('imagenes_integrador/hawaii.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.cover-overlay{
+    background-color: hsla(0, 0%, 0%, 50%);
+}
+
+.cover h1, .cover p{
+    font-weight:normal;
+}
+
+.cover .col-md-6{
+    margin: 6em 0 4em 0;
+}
+
+.card-text span{
+    font-weight: bold;
+}
+
+.box-text{
+    padding-right: 1em;
+    padding-top: 1em;
+}
+
+footer{
+    background-color: rgb(8, 59, 90);
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.bg-sky{
+    background-color: rgba(192, 252, 232, 0.678);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-color: solid 2px rgb(64, 87, 79);
+}
